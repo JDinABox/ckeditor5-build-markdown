@@ -25,7 +25,6 @@
 
 	<p>You can use this sample to validate whether your <a href="https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html">custom build</a> works fine.</p>
 </div>
-<div id="out"></div>
 <script src="../build/ckeditor.js"></script>
 <script>
 	ClassicEditor.create( document.querySelector( '#editor' ) )
@@ -35,17 +34,6 @@
 		.catch( err => {
 			console.error( err.stack );
 		} );
-
-	window.watch('editor.getData()', function(id, old, cur) {
-		document.getElementById('out').innerText = cur;
-	});
-	setInterval(function(){
-			var m = getCookie('message');
-			if(m != message) {
-				message = m;
-				alert(message);
-			}
-		}, 1000);
 </script>
 
 </body>
