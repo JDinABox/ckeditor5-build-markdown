@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "12.1.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@sbynh/ckeditor5-build-markdown",
+  "version": "12.1.1",
+  "description": "A markdown editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -40,7 +40,7 @@
     "@ckeditor/ckeditor5-image": "^13.0.1",
     "@ckeditor/ckeditor5-link": "^11.0.1",
     "@ckeditor/ckeditor5-list": "^12.0.1",
-    "@ckeditor/ckeditor5-media-embed": "^11.1.0",
+    "@ckeditor/ckeditor5-markdown-gfm": "^11.0.1",
     "@ckeditor/ckeditor5-paragraph": "^11.0.1",
     "@ckeditor/ckeditor5-paste-from-office": "^11.0.1",
     "@ckeditor/ckeditor5-table": "^12.0.1",
@@ -63,10 +63,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5-build-classic/issues",
+  "bugs": "https://github.com/SbYNH/ckeditor5-build-markdown/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/SbYNH/ckeditor5-build-markdown.git"
   },
   "scripts": {
     "build": "webpack --mode production",
