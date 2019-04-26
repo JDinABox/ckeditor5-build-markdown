@@ -20,7 +20,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @sbynh/ckeditor5-build-markdown
+npm install --save @jdinabox/ckeditor5-build-markdown
 ```
 
 And use it in your website:
@@ -29,9 +29,9 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@sbynh/ckeditor5-build-markdown/build/ckeditor.js"></script>
+<script src="./node_modules/@jdinabox/ckeditor5-build-markdown/build/ckeditor.js"></script>
 <script>
-	ClassicEditor
+	MarkdownEditor
 		.create( document.querySelector( '#editor' ) )
 		.then( editor => {
 			window.editor = editor;
@@ -45,12 +45,12 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@sbynh/ckeditor5-build-markdown';
+import MarkdownEditor from '@jdinabox/ckeditor5-build-markdown';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@sbynh/ckeditor5-build-markdown' );
+// const MarkdownEditor = require( '@jdinabox/ckeditor5-build-markdown' );
 
-ClassicEditor
+MarkdownEditor
 	.create( document.querySelector( '#editor' ) )
 	.then( editor => {
 		window.editor = editor;

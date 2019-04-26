@@ -35,10 +35,10 @@ function Markdown( editor ) {
 	editor.data.processor = new GFMDataProcessor();
 }
 
-export default class ClassicEditor extends ClassicEditorBase {}
+export default class MarkdownEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
-ClassicEditor.builtinPlugins = [
+MarkdownEditor.builtinPlugins = [
 	Essentials,
 	Markdown,
 	UploadAdapter,
@@ -65,7 +65,7 @@ ClassicEditor.builtinPlugins = [
 ];
 
 // Editor configuration.
-ClassicEditor.defaultConfig = {
+MarkdownEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
