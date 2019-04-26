@@ -63,10 +63,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/SbYNH/ckeditor5-build-markdown/issues",
+  "bugs": "https://github.com/JDinABox/ckeditor5-build-markdown/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SbYNH/ckeditor5-build-markdown.git"
+    "url": "https://github.com/JDinABox/ckeditor5-build-markdown.git"
   },
   "scripts": {
     "build": "webpack --mode production",
