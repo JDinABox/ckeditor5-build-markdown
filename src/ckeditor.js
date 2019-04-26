@@ -1,5 +1,5 @@
 /**
- * @license Copyright (c) 2019, SbYNH - JDinABox. All rights reserved.
+ * @license Copyright (c) 2019,JDinABox. All rights reserved.
  */
 /**
  * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
