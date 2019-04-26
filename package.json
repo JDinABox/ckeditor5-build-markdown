@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-markdown",
+  "name": "@sbynh/ckeditor5-build-markdown",
   "version": "12.1.0",
   "description": "A markdown editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
