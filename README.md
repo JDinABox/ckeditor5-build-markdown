@@ -6,7 +6,7 @@ Based on the classic editor build for CKEditor 5. Read more about the [classic e
 
 ![CKEditor 5 classic editor build screenshot](https://c.cksource.com/a/1/img/npm/ckeditor5-build-classic.png)
 
-## Documentation
+## Documentation (for classic editor build)
 
 See:
 
