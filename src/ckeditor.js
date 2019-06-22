@@ -35,7 +35,7 @@ function Markdown( editor ) {
 	editor.data.processor = new GFMDataProcessor();
 }
 
-export default class MarkdownEditor extends ClassicEditorBase {}
+export default class MarkdownEditor extends ClassicEditorBase { }
 
 // Plugins to include in the build.
 MarkdownEditor.builtinPlugins = [
