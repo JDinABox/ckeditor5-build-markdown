@@ -31,6 +31,7 @@
     "@ckeditor/ckeditor5-basic-styles": "^16.0.0",
     "@ckeditor/ckeditor5-block-quote": "^16.0.0",
     "@ckeditor/ckeditor5-ckfinder": "^16.0.0",
+    "@ckeditor/ckeditor5-code-block": "^16.0.0",
     "@ckeditor/ckeditor5-core": "^16.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
@@ -66,10 +67,12 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/JDinABox/ckeditor5-build-markdown",
-  "bugs": "https://github.com/JDinABox/ckeditor5-build-markdown/issues",
+  "bugs": {
+    "url": "https://github.com/JDinABox/ckeditor5-build-markdown/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JDinABox/ckeditor5-build-markdown.git"
+    "url": "git+https://github.com/JDinABox/ckeditor5-build-markdown.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -93,5 +96,9 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }
