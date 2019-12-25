@@ -137,7 +137,7 @@ describe( 'ClassicEditor build', () => {
 		} );
 
 		it( 'image works', () => {
-			const data = '<figure class="image"><img src="./manual/sample.jpg"></figure>';
+			const data = '<figure class="image"><img src="/assets/sample.png"></figure>';
 
 			editor.setData( data );
 			expect( editor.getData() ).to.equal( data );
@@ -196,7 +196,7 @@ describe( 'ClassicEditor build', () => {
 				.then( newEditor => {
 					editor = newEditor;
 
-					expect( editor.ui.view.toolbar.items.length ).to.equal( 13 );
+					expect( editor.ui.view.toolbar.items.length ).to.equal( 17 );
 					expect( editor.ui.view.stickyPanel.viewportTopOffset ).to.equal( 42 );
 				} );
 		} );

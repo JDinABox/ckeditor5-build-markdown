@@ -1,6 +1,10 @@
 CKEditor 5 markdown editor build
 ========================================
 
+[![npm version](https://badge.fury.io/js/%40jdinabox%2Fckeditor5-build-markdown.svg)](https://badge.fury.io/js/%40jdinabox%2Fckeditor5-build-markdown)
+<br>
+[![Dependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
+[![devDependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic?type=dev)
 
 Based on the classic editor build for CKEditor 5. Read more about the [classic editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#classic-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/classic-editor.html).
 
@@ -36,8 +40,8 @@ And use it in your website:
 		.then( editor => {
 			window.editor = editor;
 		} )
-		.catch( err => {
-			console.error( err.stack );
+		.catch( error => {
+			console.error( 'There was a problem initializing the editor.', error );
 		} );
 </script>
 ```
@@ -55,8 +59,8 @@ MarkdownEditor
 	.then( editor => {
 		window.editor = editor;
 	} )
-	.catch( err => {
-		console.error( err.stack );
+	.catch( error => {
+		console.error( 'There was a problem initializing the editor.', error );
 	} );
 ```
 

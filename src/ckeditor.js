@@ -77,6 +77,7 @@ MarkdownEditor.defaultConfig = {
 			'|',
 			'bulletedList',
 			'numberedList',
+			'|',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
