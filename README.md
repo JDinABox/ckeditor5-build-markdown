@@ -2,6 +2,8 @@ CKEditor 5 markdown editor build
 ========================================
 
 [![npm version](https://badge.fury.io/js/%40jdinabox%2Fckeditor5-build-markdown.svg)](https://badge.fury.io/js/%40jdinabox%2Fckeditor5-build-markdown)
+[![npm downloads](https://img.shields.io/npm/dt/@jdinabox/ckeditor5-build-markdown)]
+(https://www.npmjs.com/package/@jdinabox/ckeditor5-build-markdown)
 <br>
 [![Dependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
 [![devDependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic?type=dev)
