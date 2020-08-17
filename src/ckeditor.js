@@ -13,6 +13,8 @@ import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapte
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
@@ -32,7 +34,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 function Markdown( editor ) {
-	editor.data.processor = new GFMDataProcessor();
+	editor.data.processor = new GFMDataProcessor( editor.editing.view.document );
 }
 
 export default class MarkdownEditor extends ClassicEditorBase { }
@@ -45,6 +47,8 @@ MarkdownEditor.builtinPlugins = [
 	Autoformat,
 	Bold,
 	Italic,
+	Underline,
+	Strikethrough,
 	CodeBlock,
 	BlockQuote,
 	CKFinder,
@@ -72,15 +76,17 @@ MarkdownEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
-			'link',
-			'codeBlock',
+			'underline',
+			'strikethrough',
 			'|',
+			'link',
 			'bulletedList',
 			'numberedList',
 			'|',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
+			'codeBlock',
 			'|',
 			'undo',
 			'redo'
