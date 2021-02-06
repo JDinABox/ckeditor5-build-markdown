@@ -1,6 +1,6 @@
 {
   "name": "@jdinabox/ckeditor5-build-markdown",
-  "version": "21.0.0",
+  "version": "25.0.0",
   "description": "A markdown editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -26,33 +26,33 @@
     "build"
   ],
   "devDependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "^21.0.0",
-    "@ckeditor/ckeditor5-autoformat": "^21.0.0",
-    "@ckeditor/ckeditor5-basic-styles": "^21.0.0",
-    "@ckeditor/ckeditor5-block-quote": "^21.0.0",
-    "@ckeditor/ckeditor5-ckfinder": "^21.0.0",
-    "@ckeditor/ckeditor5-code-block": "^21.0.0",
-    "@ckeditor/ckeditor5-core": "^21.0.0",
-    "@ckeditor/ckeditor5-dev-utils": "^23.1.1",
-    "@ckeditor/ckeditor5-dev-webpack-plugin": "^23.1.1",
-    "@ckeditor/ckeditor5-easy-image": "^21.0.0",
-    "@ckeditor/ckeditor5-editor-classic": "^21.0.0",
-    "@ckeditor/ckeditor5-essentials": "^21.0.0",
-    "@ckeditor/ckeditor5-heading": "^21.0.0",
-    "@ckeditor/ckeditor5-image": "^21.0.0",
-    "@ckeditor/ckeditor5-link": "^21.0.0",
-    "@ckeditor/ckeditor5-list": "^21.0.0",
-    "@ckeditor/ckeditor5-markdown-gfm": "^21.0.0",
-    "@ckeditor/ckeditor5-paragraph": "^21.0.0",
-    "@ckeditor/ckeditor5-paste-from-office": "^21.0.0",
-    "@ckeditor/ckeditor5-table": "^21.0.0",
-    "@ckeditor/ckeditor5-theme-lark": "^21.0.0",
+    "@ckeditor/ckeditor5-adapter-ckfinder": "^25.0.0",
+    "@ckeditor/ckeditor5-autoformat": "^25.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^25.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^25.0.0",
+    "@ckeditor/ckeditor5-ckfinder": "^25.0.0",
+    "@ckeditor/ckeditor5-code-block": "^25.0.0",
+    "@ckeditor/ckeditor5-core": "^25.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^24.1.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^24.1.0",
+    "@ckeditor/ckeditor5-easy-image": "^25.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^25.0.0",
+    "@ckeditor/ckeditor5-essentials": "^25.0.0",
+    "@ckeditor/ckeditor5-heading": "^25.0.0",
+    "@ckeditor/ckeditor5-image": "^25.0.0",
+    "@ckeditor/ckeditor5-link": "^25.0.0",
+    "@ckeditor/ckeditor5-list": "^25.0.0",
+    "@ckeditor/ckeditor5-markdown-gfm": "^25.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^25.0.0",
+    "@ckeditor/ckeditor5-paste-from-office": "^25.0.0",
+    "@ckeditor/ckeditor5-table": "^25.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^25.0.0",
     "postcss-loader": "^3.0.0",
-    "raw-loader": "^4.0.1",
-    "style-loader": "^1.2.1",
-    "terser-webpack-plugin": "^3.0.2",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "raw-loader": "^4.0.2",
+    "style-loader": "^1.3.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.5.0"
   },
   "engines": {
     "node": ">=12.0.0",
@@ -83,5 +83,8 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {}
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "postcss-preset-env": "^6.7.0"
+  }
 }
