@@ -1,6 +1,6 @@
 {
   "name": "@jdinabox/ckeditor5-build-markdown",
-  "version": "25.0.0",
+  "version": "25.0.1",
   "description": "A markdown editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -82,9 +82,5 @@
   },
   "directories": {
     "test": "tests"
-  },
-  "dependencies": {
-    "css-loader": "^5.0.1",
-    "postcss-preset-env": "^6.7.0"
   }
 }
