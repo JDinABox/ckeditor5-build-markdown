@@ -4,8 +4,8 @@ CKEditor 5 markdown editor build
 [![npm version](https://badge.fury.io/js/%40jdinabox%2Fckeditor5-build-markdown.svg)](https://badge.fury.io/js/%40jdinabox%2Fckeditor5-build-markdown)
 [![npm downloads](https://img.shields.io/npm/dt/@jdinabox/ckeditor5-build-markdown)](https://www.npmjs.com/package/@jdinabox/ckeditor5-build-markdown)
 <br>
-[![Dependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
-[![devDependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic?type=dev)
+[![Dependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/status.svg)](https://david-dm.org/jdinabox/ckeditor5-build-markdown)
+[![devDependency Status](https://david-dm.org/jdinabox/ckeditor5-build-markdown/dev-status.svg)](https://david-dm.org/jdinabox/ckeditor5-build-markdown?type=dev)
 
 Based on the classic editor build for CKEditor 5. Read more about the [classic editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#classic-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/classic-editor.html).
 
@@ -22,13 +22,16 @@ See:
 
 ## Quick start
 
-First, install the build from npm:
+**First, install the build**:
 
 ```bash
 npm install --save @jdinabox/ckeditor5-build-markdown
 ```
+```bash
+yarn add @jdinabox/ckeditor5-build-markdown
+```
 
-And use it in your website:
+**And use it in your website**:
 
 ```html
 <div id="editor">
@@ -47,7 +50,7 @@ And use it in your website:
 </script>
 ```
 
-Or in your JavaScript application:
+**Or in your JavaScript application**:
 
 ```js
 import MarkdownEditor from '@jdinabox/ckeditor5-build-markdown';
